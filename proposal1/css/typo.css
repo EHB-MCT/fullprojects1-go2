@@ -6,24 +6,28 @@ h1 {
 	font-family: Dela gothic one;
 	color: #c81b71;
 	font-size: 150px;
+	margin: 90px 0 0 20px;
 }
 
 h2 {
 	font-family: Dela gothic one;
 	color: #f9a31a;
 	font-size: 75px;
+	margin: 20px 0 0 20px;
 }
 
 h3 {
 	font-family: Dela gothic one;
 	color: white;
 	font-size: 50px;
+	margin: 20px 0 0 20px;
 }
 
 h4 {
 	font-family: Dela gothic one;
 	color: white;
 	font-size: 35px;
+	margin: 20px 0 0 20px;
 }
 
 h5 {
@@ -38,7 +42,7 @@ p {
 	font-size: 14px;
 	color: white;
 
-	padding: 20px;
+	margin: 20px 20px 0  20px;
 	border-radius: 30px;
 }
 
@@ -63,6 +67,7 @@ li {
 	color: #c81b71;
 	font-weight: bold;
 	list-style-image: url("../Asset 3.svg");
+	margin: 20px 20px 0  20px;
 }
 
 nav a {

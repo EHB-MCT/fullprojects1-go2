@@ -1,22 +1,37 @@
 /* BASE LAYOUT FLEXBOX */
 
 body {
-	margin: 20px;
-	background-color: #c81b717e;
+	padding: 0;
 	display: flex;
+	flex: 1;
 	flex-direction: column;
+	margin: auto;
+	max-width: 1200px;
+	height: 1200px;
 }
 
 .logo_top img {
+	margin: 20px 0 10px 20px;
 	width: 135px;
 	transition-duration: 0.35s;
 }
 
 .logo_top img:hover {
-	width: 140px;
+	margin-bottom: 6px;
+	width: 145px;
 }
 
 .header {
 	display: flex;
-	align-items: center;
+	align-content: start;
+	flex-wrap: wrap;
+	height: 600px;
+	background-image: url("../pattern1.1.png");
+}
+
+.footer {
+	background-color: #c81b71a2;
+	display: flex;
+	flex: 1 1 1;
+	justify-content: space-between;
 }
