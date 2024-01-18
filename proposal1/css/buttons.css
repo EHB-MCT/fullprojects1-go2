@@ -1,6 +1,14 @@
 /* BUTTONS */
 
 .btn-primary {
+    background-color: #F9A31A;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    font-family: komet;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
 
 .btn-secondary {
