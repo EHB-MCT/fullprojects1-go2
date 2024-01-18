@@ -3,5 +3,7 @@
 body {
 	margin: 20px;
 	background-color: #c81b717e;
+	display: flex;
+	flex-direction: column;
 
 }

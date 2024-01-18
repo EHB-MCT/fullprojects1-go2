@@ -1,4 +1,17 @@
 /* NAVIGATION */
 
 nav {
+	background-color: #c81b71;
+	border-radius: 10px;
+	padding: 12px;
+	align-items: center;
+
+	width: 500px;
+
+	margin-right: 50px;
+	margin-left: auto;
+
+	display: flex;
+
+	justify-content: space-around;
 }
