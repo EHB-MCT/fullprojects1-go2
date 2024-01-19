@@ -33,8 +33,18 @@ body {
 	background-color: #c81b71a2;
 	display: flex;
 	flex: 1 ;
-	justify-content: space-around;
+	justify-content: center;
 	margin: 20px 0 0 0;
+	padding-top: 40px;
+}
+
+.footer .middle_logo {
+	margin: 0 100px;
+	align-items: center;
+}
+
+.footer .middle_logo img {
+	margin: 10px 10px;
 }
 
 .text1 {
