@@ -32,6 +32,30 @@ body {
 .footer {
 	background-color: #c81b71a2;
 	display: flex;
-	flex: 1 1 1;
-	justify-content: space-between;
+	flex: 1 ;
+	justify-content: space-around;
+	margin: 20px 0 0 0;
+}
+
+.text1 {
+	background-color: #c81b7170;
+	padding: 15px;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+.head3 {
+	background-color: #f9a31a;
+	width: 400px;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.head4 {
+	background-color: #c81b71a2;
+	width: 250px;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 20px;
 }

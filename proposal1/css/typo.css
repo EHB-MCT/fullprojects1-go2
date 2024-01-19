@@ -20,14 +20,14 @@ h3 {
 	font-family: Dela gothic one;
 	color: white;
 	font-size: 50px;
-	margin: 20px 0 0 20px;
+	margin: 0;
 }
 
 h4 {
 	font-family: Dela gothic one;
 	color: white;
 	font-size: 35px;
-	margin: 20px 0 0 20px;
+	margin: 0;
 }
 
 h5 {
@@ -41,9 +41,6 @@ p {
 	font-weight: bold;
 	font-size: 14px;
 	color: white;
-
-	margin: 20px 20px 0  20px;
-	border-radius: 30px;
 }
 
 a {
