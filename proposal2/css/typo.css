@@ -1,25 +1,32 @@
 /* TYPOGRAPHY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 
 h1 {
+	font-family: "DM Serif Display", serif;
+	color: #930046;
 }
 
 h2 {
+	font-family: "DM Serif Display", serif;
+	color: #345877;
 }
 
 h3 {
+	font-family: "Poppins", sans-serif;
+	color: #005f56;
 }
 
 h4 {
-}
-
-h5 {
-}
-
-h6 {
+	font-family: "Poppins", sans-serif;
+	color: #fff;
 }
 
 p {
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
+	font-family: "Poppins", sans-serif;
 }
