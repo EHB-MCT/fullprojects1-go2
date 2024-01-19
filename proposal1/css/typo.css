@@ -1,34 +1,33 @@
 /* TYPOGRAPHY */
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://use.typekit.net/wsd7bqd.css");
 
 h1 {
-    font-family: Dela gothic one;
-    color: #C81B71;
-    font-size: 150px;
+	font-family: Dela gothic one;
+	color: #c81b71;
+	font-size: 150px;
+	margin: 90px 0 0 20px;
 }
 
 h2 {
-    font-family: Dela gothic one;
-    color: #F9A31A;
-    font-size: 75px;
+	font-family: Dela gothic one;
+	color: #f9a31a;
+	font-size: 75px;
+	margin: 20px 0 0 20px;
 }
 
 h3 {
-    font-family: Dela gothic one;
-    color: white;
-    font-size: 50px;
-
-
-
+	font-family: Dela gothic one;
+	color: white;
+	font-size: 50px;
+	margin: 0;
 }
 
 h4 {
-    font-family: Dela gothic one;
-    color: white;
-    font-size: 35px;
-
-
+	font-family: Dela gothic one;
+	color: white;
+	font-size: 35px;
+	margin: 0;
 }
 
 h5 {
@@ -38,30 +37,48 @@ h6 {
 }
 
 p {
-    font-family: komet;
-    font-weight: bold;
-    font-size: 14px;
-    color: white;
-
-
-   
-    padding: 20px;
-    border-radius: 30px;
+	font-family: komet;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
 }
 
 a {
-    font-family: "komet", sans-serif;
-    color: #C81B71;
-    text-decoration: underline;
-    
+	font-family: "komet", sans-serif;
+	color: #c81b71;
+	text-decoration: underline;
+	font-weight: bolder;
+	transition-duration: 0.25s;
+}
+
+a:hover {
+	color: #f9a31a;
 }
 
 a img {
-    width: 9px;
+	width: 9px;
 }
 
 li {
-    font-family: "komet", sans-serif;
-    color: #C81B71;
-    list-style-image: url(../Asset\ 3.svg);
+	font-family: "komet", sans-serif;
+	color: #c81b71;
+	font-weight: bold;
+	list-style-image: url("../Asset 3.svg");
+	margin: 20px 20px 0  20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+	transition-duration: 0.5s;
+	margin: 0;
+	padding: 0;
+}
+
+nav a:hover {
+	color: #f9a31a;
+	text-decoration: underline;
+	font-size: 17px;
 }
