@@ -16,14 +16,20 @@ h2 {
 
 h3 {
 	font-family: nunito;
-	color: black;
+	color: #dc7f25;
 	font-size: 40px;
 }
 
 h4 {
+	font-family: nunito;
+	color: #7bb049;
+	font-size: 40px;
 }
 
 h5 {
+	font-family: nunito;
+	color: #ffed00;
+	font-size: 40px;
 }
 
 h6 {
