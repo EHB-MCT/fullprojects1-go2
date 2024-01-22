@@ -47,7 +47,7 @@ p {
 
 a {
 	font-family: "komet", sans-serif;
-	color: #005F56;
+	color: #db69a0;
 	text-decoration: underline;
 	font-weight: bolder;
 	transition-duration: 0.25s;
@@ -80,7 +80,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #0071BC;
+	color: #E58CC1;
 	text-decoration: underline;
 	font-size: 17px;
 	margin: 0 10px;
