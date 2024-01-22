@@ -47,14 +47,14 @@ p {
 
 a {
 	font-family: "komet", sans-serif;
-	color: #0071BC;
+	color: #005F56;
 	text-decoration: underline;
 	font-weight: bolder;
 	transition-duration: 0.25s;
 }
 
 a:hover {
-	color: #005F56;
+	color: #008a7c;
 }
 
 a img {
