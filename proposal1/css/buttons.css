@@ -27,3 +27,25 @@
 	text-decoration: none;
 	border: #f9a31a solid 1px;
 }
+
+.icon {
+	width: 14px;
+}
+
+.icons {
+	width: 8px;
+	margin-right: 5px;
+}
+
+.iconb {
+	width: 20px;
+	margin: 5px 5px 0 0;
+}
+
+.go_logo {
+	width: 180px;
+}
+
+.footer_logo {
+	width: 50px;
+}
