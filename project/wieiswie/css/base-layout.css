@@ -1,0 +1,75 @@
+/* BASE LAYOUT FLEXBOX */
+
+body {
+	padding: 0;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	margin: auto;
+	max-width: 1200px;
+	height: 1200px;
+}
+
+.logo_top img {
+	margin: 20px 0 10px 20px;
+	width: 180px;
+	transition-duration: 0.35s;
+	position: absolute;
+	top: 5px;
+}
+
+.logo_top img:hover {
+	margin-bottom: 6px;
+	width: 190px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	height: 100px;
+	margin: 0;
+	width: 100%;
+	background-color: #005f56;
+}
+
+.footer {
+	background-color: #005f56;
+	display: flex;
+	justify-content: center;
+	margin: 20px 0 0 0;
+	padding-top: 40px;
+}
+
+.footer .middle_logo {
+	margin: 0 100px;
+	align-items: center;
+}
+
+.footer .middle_logo img {
+	margin: 10px 10px;
+}
+
+.text1 {
+	background-color: #0071bc;
+	padding: 15px;
+	margin: 20px;
+	border-radius: 20px;
+}
+
+.head3 {
+	background-color: #005f56;
+	width: 320px;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+.head4 {
+	background-color: #0071bc;
+	width: 220px;
+	margin: 20px;
+	padding: 15px;
+	border-radius: 20px;
+}
