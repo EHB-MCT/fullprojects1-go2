@@ -8,6 +8,7 @@ body {
 	margin: auto;
 	max-width: 1200px;
 	height: 1200px;
+	background-image: url(/project/contact/images/pattern.jpg);
 }
 
 .logo_top img {
@@ -31,15 +32,15 @@ body {
 	height: 600px;
 	margin: 0;
 	width: 100%;
-	background-color: #005f56;
+	background-color: #92074c;
 }
 
 .footer {
 	background-color: #005f56;
 	display: flex;
 	justify-content: center;
-	margin: 20px 0 0 0;
-	padding-top: 40px;
+	margin: 50px 0 0 0;
+	padding-top: 30px;
 }
 
 .footer .middle_logo {
@@ -52,7 +53,7 @@ body {
 }
 
 .text1 {
-	background-color: #0071bc;
+	background-color: #345877;
 	padding: 15px;
 	margin: 20px;
 	border-radius: 20px;
@@ -60,15 +61,14 @@ body {
 
 .head3 {
 	background-color: #005f56;
-	width: 320px;
+	width: 400px;
 	margin: 20px;
 	padding: 15px;
 	border-radius: 20px;
 }
 
 .head4 {
-	background-color: #0071bc;
-	width: 220px;
+	background-color: #345877;
 	margin: 20px;
 	padding: 15px;
 	border-radius: 20px;
