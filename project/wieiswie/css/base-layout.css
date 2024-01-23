@@ -6,8 +6,15 @@ body {
 	flex: 1;
 	flex-direction: column;
 	margin: auto;
-	max-width: 1200px;
 	height: 1200px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 1200px;
+	flex: 1;
+	margin: auto;
 }
 
 .logo_top img {
@@ -32,6 +39,7 @@ body {
 	margin: 0;
 	width: 100%;
 	background-color: #005f56;
+	justify-content: center;
 }
 
 .footer {
@@ -51,12 +59,6 @@ body {
 	margin: 10px 10px;
 }
 
-.text1 {
-	background-color: #0071bc;
-	padding: 15px;
-	margin: 20px;
-	border-radius: 20px;
-}
 
 .head3 {
 	background-color: #005f56;
@@ -68,8 +70,95 @@ body {
 
 .head4 {
 	background-color: #0071bc;
-	width: 220px;
+	width: 600px;
 	margin: 20px;
 	padding: 15px;
 	border-radius: 20px;
+	margin: 120px 10px;
+}
+
+.wie {
+	margin: 100px 0;
+	display: flex;
+	height: 300px;
+	flex-direction: column;
+}
+
+.wie ul {
+	margin: 100px;
+}
+
+.text1 {
+	background-color: #0071bc;
+}
+
+.text1,.text2{
+	padding: 25px;
+	width: 700px;
+	border-radius: 20px;
+	align-self: end;
+}
+
+
+.keuzevakken {
+	margin: 6px;
+	display: flex;
+}
+
+
+.keuzevakkentabel {
+	margin: 40px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.keuzevakkentabel h3, .jaar_1_tabel h3{
+	color: #005f56;
+	margin: 40px 0;
+}
+
+.keuzevakkentabel img {
+	height: 100px;
+}
+
+.banner {
+	display: flex;
+	background-color: #005f56;
+	width: 100%;
+	justify-content: center;
+	margin: 100px 0 100px;
+}
+
+.banner2 {
+	display: flex;
+	background-color: #005f56;
+	width: 100%;
+	justify-content: center;
+	margin: 220px 0 100px;
+}
+
+.text_banner {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: 1200px;
+	margin: 80px 0;
+}
+
+.text_banner p {
+	width: 70%;
+}
+
+.text2 {
+	background-color: #005f56;
+}
+
+.text3 {
+	background-color: #005f56;
+	padding: 30px;
+	border-radius: 20px;
+	width: 800px;
+	margin-top: 170px;
+
 }
