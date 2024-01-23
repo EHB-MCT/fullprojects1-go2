@@ -67,17 +67,3 @@ body {
 	margin-left: 130px;
 	justify-content: space-around;
 }
-.row {
-	flex-wrap: wrap;
-	position: relative;
-	margin: 20px;
-}
-
-.page {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	flex-direction: column;
-	flex: 1 1 auto;
-	position: relative;
-}
