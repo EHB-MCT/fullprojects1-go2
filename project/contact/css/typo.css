@@ -18,6 +18,22 @@ h2 {
 	margin: 50px 0 0 20px;
 }
 
+h3 {
+	font-family: Dela gothic one;
+	color: #005f56;
+	font-size: 30px;
+	margin: 0;
+	font-weight: normal;
+}
+
+h4 {
+	font-family: Dela gothic one;
+	color: white;
+	font-size: 25px;
+	margin: 0;
+	font-weight: normal;
+}
+
 p {
 	font-family: komet;
 	font-weight: bold;
