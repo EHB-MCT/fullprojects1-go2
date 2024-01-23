@@ -1,40 +1,21 @@
 /* TYPOGRAPHY */
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://use.typekit.net/wsd7bqd.css");
 
 h1 {
-	font-family: Dela gothic one;
-	color: #345877;
-	font-size: 150px;
-	margin: 90px 0 0 20px;
+	font-family: "DM Serif Display", serif;
+	color: #930046;
+	font-size: 50px;
+	margin: 15px 0px;
 }
 
 h2 {
 	font-family: Dela gothic one;
+	font-weight: normal;
 	color: #005f56;
-	font-size: 75px;
-	margin: 20px 0 0 20px;
-}
-
-h3 {
-	font-family: Dela gothic one;
-	color: white;
 	font-size: 50px;
-	margin: 0;
-}
-
-h4 {
-	font-family: Dela gothic one;
-	color: white;
-	font-size: 35px;
-	margin: 0;
-}
-
-h5 {
-}
-
-h6 {
+	margin: 50px 0 0 20px;
 }
 
 p {
