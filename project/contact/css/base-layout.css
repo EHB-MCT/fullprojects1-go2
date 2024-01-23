@@ -57,9 +57,9 @@ body {
 
 .text1 {
 	background-color: #345877;
-	padding: 2px;
-	margin: 20px;
 	border-radius: 20px;
+	height: 300px;
+	width: 800px;
 }
 
 .slogan {
@@ -67,9 +67,17 @@ body {
 	margin-left: 130px;
 	justify-content: space-around;
 }
+.row {
+	flex-wrap: wrap;
+	position: relative;
+	margin: 20px;
+}
 
-.input {
+.page {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
-	margin-left: 670px;
+	flex-direction: column;
+	flex: 1 1 auto;
+	position: relative;
 }
