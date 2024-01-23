@@ -57,19 +57,13 @@ body {
 
 .text1 {
 	background-color: #345877;
-	padding: 2px;
-	margin: 20px;
 	border-radius: 20px;
+	height: 300px;
+	width: 800px;
 }
 
 .slogan {
 	display: flex;
 	margin-left: 130px;
 	justify-content: space-around;
-}
-
-.input {
-	display: flex;
-	justify-content: space-around;
-	margin-left: 670px;
 }
