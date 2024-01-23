@@ -73,10 +73,10 @@ body {
 }
 .carrousel {
 	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
 
+	align-items: center;
 	margin-top: 100px;
+	justify-content: space-evenly;
 }
 
 .KAhiel img {
@@ -94,9 +94,9 @@ body {
 }
 
 .Lpijl {
-	margin-right: 30px; /* Adjust the value as needed */
+	margin-right: 30px;
 }
 
 .Rpijl {
-	margin-left: 30px; /* Adjust the value as needed */
+	margin-left: 30px;
 }
