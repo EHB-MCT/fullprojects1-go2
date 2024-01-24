@@ -8,14 +8,12 @@ h1 {
 	font-family: Dela gothic one;
 	color: #0071BC;
 	font-size: 150px;
-	margin: 90px 0 0 20px;
 }
 
 h2 {
 	font-family: Dela gothic one;
-	color: #005F56;
+	color: #005f56;
 	font-size: 75px;
-	margin: 20px 0 0 20px;
 }
 
 h3 {
@@ -80,7 +78,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #E58CC1;
+	color: #db69a0;
 	text-decoration: underline;
 	font-size: 17px;
 	margin: 0 10px;
