@@ -1,49 +1,61 @@
 /* TYPOGRAPHY */
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+
+
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://use.typekit.net/wsd7bqd.css");
 
 h1 {
-	font-family: "DM Serif Display", serif;
-	color: #930046;
-	font-size: 50px;
-	margin: 15px 0px;
+	font-family: Dela gothic one;
+	color: #0071BC;
+	font-size: 120px;
 }
 
 h2 {
 	font-family: Dela gothic one;
-	font-weight: normal;
 	color: #005f56;
-	font-size: 50px;
-	margin: 50px 0 0 20px;
+	font-size: 75px;
 }
 
 h3 {
 	font-family: Dela gothic one;
-	color: #005f56;
-	font-size: 30px;
+	color: white;
+	font-size: 50px;
 	margin: 0;
-	font-weight: normal;
 }
 
 h4 {
 	font-family: Dela gothic one;
 	color: white;
-	font-size: 25px;
+	font-size: 35px;
 	margin: 0;
-	font-weight: normal;
+}
+
+h5 {
+}
+
+h6 {
 }
 
 p {
 	font-family: komet;
 	font-weight: bold;
 	font-size: 14px;
+	color: #005f56;
+}
+
+.contactus, .footer P {
 	color: white;
+}
+
+::placeholder {
+	font-family: komet;
+	font-weight: bold;
+	font-size: 14px;
 }
 
 a {
 	font-family: "komet", sans-serif;
-	color: #e58cc1;
+	color: #db69a0;
 	text-decoration: underline;
 	font-weight: bolder;
 	transition-duration: 0.25s;
@@ -59,10 +71,10 @@ a img {
 
 li {
 	font-family: "komet", sans-serif;
-	color: #005f56;
+	color: #0071BC;
 	font-weight: bold;
 	list-style-image: url("../Asset 3.svg");
-	margin: 20px 20px 0 20px;
+	margin: 20px 20px 0  20px;
 }
 
 nav a {
@@ -76,8 +88,13 @@ nav a {
 }
 
 nav a:hover {
-	color: #345877;
+	color: #db69a0;
 	text-decoration: underline;
 	font-size: 17px;
 	margin: 0 10px;
 }
+
+.pijler h4 {
+	color: #005f56;
+}
+

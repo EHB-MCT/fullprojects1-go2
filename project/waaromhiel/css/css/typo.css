@@ -7,7 +7,7 @@
 h1 {
 	font-family: Dela gothic one;
 	color: #0071BC;
-	font-size: 150px;
+	font-size: 120px;
 }
 
 h2 {
@@ -40,7 +40,17 @@ p {
 	font-family: komet;
 	font-weight: bold;
 	font-size: 14px;
-	color: #0071BC;
+	color: #005f56;
+}
+
+.contactus P {
+	color: white;
+}
+
+::placeholder {
+	font-family: komet;
+	font-weight: bold;
+	font-size: 14px;
 }
 
 a {
@@ -87,3 +97,4 @@ nav a:hover {
 .pijler h4 {
 	color: #005f56;
 }
+
