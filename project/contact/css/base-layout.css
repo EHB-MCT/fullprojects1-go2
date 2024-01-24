@@ -32,7 +32,7 @@ body {
 	height: 150px;
 	margin: 0;
 	width: 100%;
-	background-color: #005f56;
+	background-color: #4d72ce;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .text1 {
-	background-color: #345877;
+	background-color: #4d72ce;
 	border-radius: 20px;
 	height: 300px;
 	width: 800px;
@@ -68,6 +68,7 @@ body {
 	width: 100%;
 	margin-top: 100px;
 }
+
 .contactus .title {
 	display: flex;
 	justify-content: center;
@@ -76,23 +77,26 @@ body {
 }
 
 .contactus .title h3 {
-	color: #345877;
+	color: #4d72ce;
 	font-weight: 500;
 }
 .form {
+	border-radius: 15px;
 	grid-area: form;
 }
 
 .info {
+	border-radius: 15px;
 	grid-area: info;
 }
 
 .map {
+	border-radius: 15px;
 	grid-area: map;
 }
 .contact {
 	padding: 40px;
-	background-color: #345877;
+	background-color: #4d72ce;
 	box-shadow: 0 5px 35px rgba(0, 0, 0, 0, 15);
 }
 .box {
@@ -120,4 +124,65 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+/* form */
+.formBox {
+	position: relative;
+	width: 100%;
+}
+
+.formBox .row50 {
+	display: flex;
+	gap: 20px;
+}
+
+.inputBox {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+	width: 50%;
+}
+
+.formBox .row100 .inputBox {
+	width: 100%;
+}
+
+.inputBox span {
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+.inputBox input {
+	padding: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 1px solid #005f56;
+}
+.inputBox textarea {
+	padding: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 1px solid #005f56;
+	resize: none;
+	min-height: 220px;
+	margin-bottom: 10px;
+}
+
+.inputBox input[type="button"] {
+	font-family: Dela gothic one;
+	background-color: #e58cc1;
+	color: white;
+	border: none;
+	font-size: 1em;
+	max-width: 125px;
+	font-weight: 500;
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 14px 15px;
+}
+
+.inputBox::placeholder {
+	color: gray;
 }
