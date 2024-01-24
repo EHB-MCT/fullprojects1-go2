@@ -1,13 +1,13 @@
 /* NAVIGATION */
 
 nav {
-	background-color: #005F56;
+	background-color: #005f56;
 	padding: 12px;
 	align-items: center;
 	height: 80px;
 	margin: 0;
 
-	width: 95%;
+	width: 1200px;
 	display: flex;
 	justify-content: flex-end;
 }
