@@ -12,7 +12,7 @@ h1 {
 
 h2 {
 	font-family: Dela gothic one;
-	color: #005F56;
+	color: #005f56;
 	font-size: 75px;
 }
 
@@ -78,7 +78,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #E58CC1;
+	color: #db69a0;
 	text-decoration: underline;
 	font-size: 17px;
 	margin: 0 10px;
