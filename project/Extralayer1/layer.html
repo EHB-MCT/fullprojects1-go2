@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Wie is wie?</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/base-layout.css" />
+		<link rel="stylesheet" href="css/nav.css" />
+		<link rel="stylesheet" href="css/typo.css" />
+		<link rel="stylesheet" href="css/buttons.css" />
+	</head>
+	<body>
+		<div class="header">
+			<a href="../home/css/home.html" class="logo_top"
+				><img src="images/logo_final.svg" alt=""
+			/></a>
+			<nav>
+				<a href="#">Wie zijn wij</a>
+				<a href="#">Waarom hiel ?</a>
+				<a href="#">Hiel op pad</a>
+				<a href="#">Inschrijvingen</a>
+				<a href="#">contact</a>
+			</nav>
+		</div>
+
+		<div class="wrapper">
+			<h1>Evenement aanmaken</h1>
+
+			<h2>Upload jouw foto hier</h2>
+
+			<form action="upload.php" method="post" enctype="multipart/form-data">
+				<input type="file" name="fileToUpload" id="fileToUpload" />
+
+				<input type="submit" value="Upload Image" name="submit" />
+			</form>
+		</div>
+
+		<div class="footer" id="regelment">
+			<div>
+				<p>
+					<img src="images/place.png" class="icons" /> Charles Gilisquetlaan 34
+					1030, Brussel
+				</p>
+				<p><img src="images/phone.png" class="icon" /> 02-241.31.08</p>
+				<p><img src="images/mail.png" class="icon" /> info@kahiel.be</p>
+			</div>
+
+			<div class="middle_logo">
+				<img
+					src="images/GO!+Onderwijs+van+de+Vlaamse+Gemeenschap.png"
+					class="go_logo"
+				/>
+				<img src="images/logo_final.svg" class="footer_logo" />
+			</div>
+
+			<div>
+				<p><img src="images/insta.png" class="icon" /> atheneumhiel</p>
+				<p>
+					<img
+					src=images/facebook-logo-png-white-facebook-logo-png-white-facebook-icon-png--32.png
+					class="iconb"> Go Atheneum Emanuel Hiel
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

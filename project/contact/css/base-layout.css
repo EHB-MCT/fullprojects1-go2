@@ -61,12 +61,14 @@ body {
 }
 
 .contactus {
+	border-radius: 12px;
+	justify-content: center;
 	position: relative;
 	width: 100%;
 	margin-top: 100px;
 	align-self: center;
 	margin: auto;
-	width: 1200px;
+	width: 1000px;
 	flex-direction: column;
 }
 
@@ -83,32 +85,43 @@ body {
 }
 .form {
 	border-radius: 15px;
-	grid-area: form;
 }
 
 .info {
 	border-radius: 15px;
-	grid-area: info;
 }
 
 .map {
-	border-radius: 15px;
-	grid-area: map;
+	align-items: flex-end;
 }
-.contact {
-	padding: 40px;
+.contact1 {
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
 	background-color: #005f56;
-	box-shadow: 0 5px 35px rgba(0, 0, 0, 0, 15);
 }
+.contact2 {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+.contact3 {
+	width: 475px;
+	align-items: flex-end;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	margin-left: 35px;
+}
+
 .box {
-	display: grid;
+	width: 1100px;
+	border-radius: 12px;
+	background-color: #005f56;
+	display: flex;
 	position: relative;
-	grid-template-columns: 2fr 1fr;
-	grid-template-rows: 5fr 4fr;
-	grid-template-areas:
-		"form info"
-		"form map";
-	grid-gap: 20px;
 	margin-top: 20px;
 }
 
@@ -141,7 +154,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 10px;
-	width: 50%;
+	width: 100%;
 }
 
 .formBox .row100 .inputBox {
@@ -189,4 +202,26 @@ body {
 
 .inputBox::placeholder {
 	color: gray;
+}
+
+iframe {
+	height: 300px;
+}
+
+.textje {
+	border-radius: 12px;
+	background-color: #005f56;
+	color: #4d72ce;
+	display: flex;
+	margin: 70px;
+	padding: 20px;
+}
+.textjeh3 {
+	justify-content: center;
+	display: flex;
+	border-radius: 12px;
+	align-items: center;
+	color: #4d72ce;
+	display: flex;
+	padding: 20px;
 }
