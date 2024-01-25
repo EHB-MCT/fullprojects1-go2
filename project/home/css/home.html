@@ -9,13 +9,37 @@
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/typo.css" />
 		<link rel="stylesheet" href="css/buttons.css" />
+		<script>
+			function toggleMenu() {
+				var menu = document.querySelector(".menu-items");
+				menu.style.display =
+					menu.style.display === "flex" || menu.style.display === ""
+						? "none"
+						: "flex";
+			}
+		</script>
 	</head>
 
 	<body>
 		<div class="header">
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+				<div class="menu-items">
+					<a href="#" class="nav-link">Wie zijn Wij</a>
+					<a href="#" class="nav-link">Waarom Hiel?</a>
+					<a href="#" class="nav-link">Hiel op Pad</a>
+					<a href="#" class="nav-link">Inschrijvingen</a>
+					<a href="#" class="nav-link">Contact</a>
+				</div>
+			</div>
 			<a href="../home/css/home.html" class="logo_top"
-				><img src="images home/logo_final.svg" alt=""
+				><img src="images home/logo_final.svg"
 			/></a>
+
 			<nav>
 				<a href="#">Wie zijn Wij</a>
 				<a href="#">Waarom Hiel ?</a>
@@ -24,10 +48,22 @@
 				<a href="#">Contact</a>
 			</nav>
 		</div>
-		
+<<<<<<< HEAD
+=======
+		<div class="carousel">
+			<div class="carousel-item">
+				<img src="images home/leerlingen1.jpg" alt="" />
+			</div>
+			<div class="carousel-item">
+				<img src="images home/leerlingen2.jpg" alt="" />
+			</div>
+			<div class="carousel-item">
+				<img src="images home/leerlingen3.jpg" alt="" />
+			</div>
+		</div>
+>>>>>>> a8626e6790c3dccff57e8bcf71e88d9aa42823e4
+
 		<div class="wrapper">
-
-
 			<div class="artikels">
 				<div class="artikel">
 					<img src="/project/home/css/images home/leerlingen1.jpg" />
@@ -57,26 +93,23 @@
 			</div>
 		</div>
 		<div class="wrapper">
-			
 			<div class="text4">
-
 				<img src="/project/home/css/images home/Spiral.jpg" />
 
 				<div class="text4_1">
 					<h2>Een thuis voor elk talent</h2>
-				<p class="one">
-					Bij ons draait het niet alleen om de boeken en lessen, maar vooral om
-					JOU en je geweldige talenten. Of je nu slim, creatief of sportief
-					bent, hier mag iedereen schitteren!
-				</p>
+					<p class="one">
+						Bij ons draait het niet alleen om de boeken en lessen, maar vooral
+						om JOU en je geweldige talenten. Of je nu slim, creatief of sportief
+						bent, hier mag iedereen schitteren!
+					</p>
 
-				<p class="two">
-					Wij zijn hier niet alleen voor schoolwerk, maar ook om ervoor te
-					zorgen dat je je goed voelt. Welkom in je huis, waar elk talent mag
-					stralen!
-				</p>	
+					<p class="two">
+						Wij zijn hier niet alleen voor schoolwerk, maar ook om ervoor te
+						zorgen dat je je goed voelt. Welkom in je huis, waar elk talent mag
+						stralen!
+					</p>
 				</div>
-				
 			</div>
 		</div>
 		<div class="banner">
@@ -94,28 +127,46 @@
 			<div class="outerPic">
 				<div class="leftPic">
 					<div class="leftPicStack">
-						<img src="images home/1x/pic_ras1.png" alt="">
-						<img src="images home/1x/pic_ras2.png" alt="">
+						<img src="images home/1x/pic_ras1.png" alt="" />
+						<img src="images home/1x/pic_ras2.png" alt="" />
+<<<<<<< HEAD
+					</div>
+					<div class="bigLeftPic">
+						<img src="images home/1x/pic_ras3.png" alt="" />
+					</div>
+=======
 					</div>
 
-					<img src="images home/1x/pic_ras3.png" alt="">
+					<img src="images home/1x/pic_ras3.png" alt="" />
+>>>>>>> a8626e6790c3dccff57e8bcf71e88d9aa42823e4
 				</div>
 				<div class="rightPic">
 					<div class="rightPicRow">
-						<img src="images home/1x/pic_ras4.png" alt="">
-						<img src="images home/1x/pic_ras5.png" alt="">
+						<img src="images home/1x/pic_ras4.png" alt="" />
+						<img src="images home/1x/pic_ras5.png" alt="" />
 					</div>
 
-					<img src="images home/1x/pic_ras_6.png" alt="">
+<<<<<<< HEAD
+					<img
+						class="rightLongImage"
+						src="images home/1x/pic_ras_6.png"
+						alt=""
+					/>
+=======
+					<img src="images home/1x/pic_ras_6.png" alt="" />
+>>>>>>> a8626e6790c3dccff57e8bcf71e88d9aa42823e4
 				</div>
+			</div>
+			<div class="bottomPic">
+				<img src="images home/1x/pic_ras_6.png" alt="" />
 			</div>
 		</div>
 
 		<div class="footer">
-			<div>
+			<div class="footer_text">
 				<p>
-					<img src="images home/place.png" class="icons" /> Charles Gilisquetlaan 34
-					1030, Brussel
+					<img src="images home/place.png" class="icons" /> Charles
+					Gilisquetlaan 34 1030, Brussel
 				</p>
 				<p><img src="images home/phone.png" class="icon" /> 02-241.31.08</p>
 				<p><img src="images home/mail.png" class="icon" /> info@kahiel.be</p>
@@ -126,15 +177,21 @@
 					src="images home/GO!+Onderwijs+van+de+Vlaamse+Gemeenschap.png"
 					class="go_logo"
 				/>
-				<img src="images home/logo_final.svg" class="footer_logo"">
+				<img src="images home/logo_final.svg" class="footer_logo" />
 			</div>
 
-			<div>
+			<div class="footer_text2">
 				<p><img src="images home/insta.png" class="icon" /> atheneumhiel</p>
 				<p>
 					<img
-					src="images home/facebook-logo-png-white-facebook-logo-png-white-facebook-icon-png--32.png"
-					class="iconb"> Go Atheneum Emanuel Hiel
+						src="images home/facebook-logo-png-white-facebook-logo-png-white-facebook-icon-png--32.png"
+						class="iconb"
+					/>
+<<<<<<< HEAD
+					Go Atheneum <br />Emanuel Hiel
+=======
+					Go Atheneum Emanuel Hiel
+>>>>>>> a8626e6790c3dccff57e8bcf71e88d9aa42823e4
 				</p>
 			</div>
 		</div>
