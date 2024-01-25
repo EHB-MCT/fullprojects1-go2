@@ -12,7 +12,7 @@ h1 {
 
 h2 {
 	font-family: Dela gothic one;
-	color: #005f56;
+	color: #4d72ce;
 	font-size: 75px;
 }
 
@@ -37,7 +37,7 @@ h6 {
 }
 
 p {
-	font-family: komet;
+	font-family: "komet", sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	color: #005f56;
@@ -48,7 +48,7 @@ p {
 }
 
 ::placeholder {
-	font-family: komet;
+	font-family: "komet", sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 }
