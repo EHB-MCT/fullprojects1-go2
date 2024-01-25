@@ -6,8 +6,25 @@ body {
 	flex: 1;
 	flex-direction: column;
 	margin: auto;
-	max-width: 1200px;
 	height: 1200px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 1200px;
+	flex: 1;
+	margin: auto;
+}
+
+.wrapper_contact {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	width: 1200px;
+	margin: auto;
+	align-items: end;
+
 }
 
 .logo_top img {
@@ -28,10 +45,11 @@ body {
 	align-items: center;
 	flex-wrap: wrap;
 	flex-direction: row;
-	height: 600px;
+	height: 120px;
 	margin: 0;
 	width: 100%;
 	background-color: #005f56;
+	justify-content: center;
 }
 
 .footer {
@@ -51,13 +69,6 @@ body {
 	margin: 10px 10px;
 }
 
-.text1 {
-	background-color: #0071bc;
-	padding: 15px;
-	margin: 20px;
-	border-radius: 20px;
-}
-
 .head3 {
 	background-color: #005f56;
 	width: 320px;
@@ -68,8 +79,219 @@ body {
 
 .head4 {
 	background-color: #0071bc;
-	width: 220px;
+	width: 600px;
 	margin: 20px;
 	padding: 15px;
 	border-radius: 20px;
+	margin: 120px 10px;
+}
+
+.wie {
+	margin: 100px 0;
+	display: flex;
+	height: 300px;
+	flex-direction: column;
+}
+
+.wie ul {
+	margin: 100px;
+}
+
+.text1 {
+	background-color: #4D72CE;
+}
+
+.text1,.text2{
+	padding: 25px;
+	width: 700px;
+	border-radius: 20px;
+	align-self: end;
+}
+
+
+.keuzevakken {
+	margin: 6px;
+	display: flex;
+}
+
+
+.keuzevakkentabel {
+	margin: 40px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.keuzevakkentabel h3, .jaar_1_tabel h3{
+	color: #005f56;
+	margin: 40px 0;
+}
+
+.keuzevakkentabel img {
+	height: 100px;
+}
+
+.banner {
+	display: flex;
+	background-color: #005f56;
+	width: 100%;
+	justify-content: center;
+	margin: 100px 0 100px;
+}
+
+.banner2 {
+	display: flex;
+	background-color: #005f56;
+	width: 100%;
+	justify-content: center;
+	margin: 220px 0 100px;
+}
+
+.text_banner {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: 1200px;
+	margin: 80px 0;
+}
+
+.text_banner p {
+	width: 70%;
+	color: white;
+}
+
+.text2 {
+	background-color: #005f56;
+}
+
+.text3 {
+	background-color: #005f56;
+	padding: 30px;
+	border-radius: 20px;
+	width: 800px;
+	margin-top: 170px;
+
+}
+
+.pijler h4{
+	width: 400px;
+}
+
+.pijler p {
+	width: 600px;
+	font-size: 16px;
+}
+
+.pijler {
+	margin: 100px 0;
+	justify-content: space-between;
+	align-items: end;
+	display: flex ;
+}
+
+.artikels {
+	display: flex;
+	justify-content: center;
+}
+
+.artikel{
+	width: 300px;
+	background-color: #4D72CE;
+	padding: 0 0 50px;
+	margin: 110px 10px;
+
+	border-radius: 20px;
+	
+}
+
+.artikel img {
+	width: 300px;
+	border-radius: 20px;
+}
+
+.artikel h4 {
+	font-size: 20px;
+	margin: 0 5px;
+}
+
+.text4 {
+	display: flex;
+	justify-content: center;
+	margin: 40px 0;
+}
+
+.text4 img{
+	width: 600px;
+	margin: 0 50px 0 0;
+}
+
+.text4 h2 {
+	font-size: 52px;
+}
+
+.text4_1 {
+	width: 350px;
+
+}
+
+.outerPic img{
+	margin: 25px;
+}
+
+.outerPic {
+	display: flex;
+	justify-content: center;
+}
+
+.leftPic {
+	display: flex;
+}
+
+.rightPic {
+	display: flex;
+	flex-direction: column;
+}
+
+.rightPicRow {
+	display: flex;
+} 
+
+.contactus {
+	background-color: #005f56;
+	padding: 35px;
+	border-radius: 20px;
+
+}
+
+.contactus .box {
+	display: flex;
+}
+
+input, textarea{
+	padding: 5px;
+	border-radius: 10px;
+	margin: 10px 25px;
+}
+
+.row50 {
+	display: flex;
+}
+
+textarea {
+	width: 410px;
+	resize: none;
+}
+
+.infoBox {
+	margin: 0 0 0 25px;
+} 
+
+.outerHoe {
+	display: flex;
+	flex-direction: column;
+}
+.breng_mee {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
 }

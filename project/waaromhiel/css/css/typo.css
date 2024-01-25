@@ -43,7 +43,7 @@ p {
 	color: #005f56;
 }
 
-.contactus P {
+.contactus, .footer P {
 	color: white;
 }
 
@@ -98,3 +98,6 @@ nav a:hover {
 	color: #005f56;
 }
 
+.contactus p {
+	color: white;
+}
