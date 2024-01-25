@@ -1,0 +1,112 @@
+/* TYPOGRAPHY */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://use.typekit.net/wsd7bqd.css");
+
+h1 {
+	font-family: Dela gothic one;
+	color: #005f56;
+	font-size: 100px;
+	margin: 100px 0 0;
+}
+
+h2 {
+	font-family: Dela gothic one;
+	color: #0071BC;
+	font-size: 60px;
+}
+
+h3 {
+	font-family: Dela gothic one;
+	color: white;
+	font-size: 30px;
+	margin: 0;
+}
+
+h4 {
+	font-family: Dela gothic one;
+	color: white;
+	font-size: 35px;
+	margin: 0;
+}
+
+h5 {
+}
+
+h6 {
+}
+
+p {
+	font-family: komet;
+	font-weight: bold;
+	font-size: 20px;
+	color: #005f56;
+}
+
+.contactus, .footer P {
+	color: white;
+}
+
+::placeholder {
+	font-family: komet;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+a {
+	font-family: "komet", sans-serif;
+	color: #db69a0;
+	text-decoration: underline;
+	font-weight: bolder;
+	transition-duration: 0.25s;
+}
+
+a:hover {
+	color: #008a7c;
+}
+
+a img {
+	width: 9px;
+}
+
+li {
+	font-family: "komet", sans-serif;
+	color: #0071BC;
+	font-weight: bold;
+	list-style-image: url("../Asset 3.svg");
+	margin: 20px 20px 0  20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+	transition-duration: 0.5s;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav a:hover {
+	color: #db69a0;
+	text-decoration: underline;
+	font-size: 17px;
+	margin: 0 10px;
+}
+
+.pijler h4 {
+	color: #005f56;
+}
+
+.contactus p {
+	color: white;
+}
+
+.banner p , .banner2 p {
+	font-size: 24px;
+}
+
+.wie h1 {
+	font-size: 70px;
+}
