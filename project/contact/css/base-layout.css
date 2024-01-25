@@ -155,12 +155,14 @@ body {
 }
 
 .inputBox input {
+	font-family: "komet", sans-serif;
 	padding: 10px;
 	font-size: 1.1em;
 	outline: none;
 	border: 1px solid #005f56;
 }
 .inputBox textarea {
+	font-family: "komet", sans-serif;
 	padding: 10px;
 	font-size: 1.1em;
 	outline: none;
@@ -171,7 +173,7 @@ body {
 }
 
 .inputBox input[type="button"] {
-	font-family: Dela gothic one;
+	font-family: "komet", sans-serif;
 	background-color: #e58cc1;
 	color: white;
 	border: none;
