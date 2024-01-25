@@ -97,7 +97,7 @@ body {
 }
 .contact {
 	padding: 40px;
-	background-color: #4d72ce;
+	background-color: #005f56;
 	box-shadow: 0 5px 35px rgba(0, 0, 0, 0, 15);
 }
 .box {
@@ -149,6 +149,7 @@ body {
 }
 
 .inputBox span {
+	font-family: "komet", sans-serif;
 	color: white;
 	margin-top: 10px;
 	margin-bottom: 5px;
