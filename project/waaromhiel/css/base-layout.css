@@ -97,9 +97,6 @@ body {
 	margin: 100px;
 }
 
-.text1 {
-	background-color: #4D72CE;
-}
 
 .text1,.text2{
 	padding: 25px;
@@ -136,7 +133,15 @@ body {
 	background-color: #005f56;
 	width: 100%;
 	justify-content: center;
-	margin: 100px 0 100px;
+	margin: 100px 0 0;
+}
+
+#go {
+	margin-top: 360px;
+}
+
+#regelment {
+	margin-top: 300px;
 }
 
 .banner2 {
@@ -144,7 +149,7 @@ body {
 	background-color: #005f56;
 	width: 100%;
 	justify-content: center;
-	margin: 220px 0 100px;
+	margin: 260px 0 0;
 }
 
 .text_banner {
@@ -294,4 +299,27 @@ textarea {
 	display: flex;
 	flex-direction: column;
 	align-items: end;
+}
+
+.regels_wrapper1, .regels_wrapper2 {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+
+}
+
+.regels_wrapper2 {
+	margin-top: 90px;
+	align-items: end;
+}
+
+
+
+.Leefregel {
+	margin: 40px 10px;
+}
+
+.alle_regels {
+	display: flex;
+	justify-content: space-between;
 }

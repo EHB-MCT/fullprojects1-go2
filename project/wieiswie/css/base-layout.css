@@ -309,16 +309,17 @@ textarea {
 }
 
 .regels_wrapper2 {
-	margin-top: 5%;
+	margin-top: 90px;
 	align-items: end;
 }
 
 
 
 .Leefregel {
-	margin: 10px;
+	margin: 40px 10px;
 }
 
 .alle_regels {
 	display: flex;
+	justify-content: space-between;
 }
