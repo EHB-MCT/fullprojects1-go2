@@ -307,6 +307,13 @@ body {
 	font-size: 16px;
 	margin-bottom: 10px;
 }
+.carousel,
+.carouselInner,
+.carousel-item {
+	height: 50vh;
+	z-index: -1;
+	margin-top: 70px;
+}
 
 @media only screen and (max-width: 768px) {
 	body {
@@ -422,17 +429,11 @@ body {
 		display: none;
 	}
 
+	.carousel.slide {
+		margin-bottom: 200px;
+	}
 
 	.text4 img {
 		width: 60%;
 	}
 }
-.carousel,
-.carouselInner,
-.carousel-item {
-	height: 50vh;
-	z-index: -1;
-	margin-top: 70px;
-}
-
-
