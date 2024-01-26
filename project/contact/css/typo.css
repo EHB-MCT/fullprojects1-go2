@@ -1,6 +1,5 @@
 /* TYPOGRAPHY */
 
-
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://use.typekit.net/wsd7bqd.css");
 
@@ -13,33 +12,32 @@ h1 {
 
 h2 {
 	font-family: Dela gothic one;
-	color: #0071BC;
+	color: #0071bc;
 	font-size: 60px;
 }
 
 h3 {
 	font-family: Dela gothic one;
-	color: white;
-	font-size: 30px;
+	color: #0071bc;
+	font-size: 35px;
 	margin: 0;
 }
 
 h4 {
 	font-family: Dela gothic one;
 	color: white;
-	font-size: 35px;
+	font-size: 30px;
 	margin: 0;
 }
-
 
 p {
 	font-family: komet;
 	font-weight: bold;
 	font-size: 20px;
-	color: #005f56;
 }
 
-.contactus, .footer P {
+.contactus,
+.footer P {
 	color: white;
 }
 
@@ -67,10 +65,10 @@ a img {
 
 li {
 	font-family: "komet", sans-serif;
-	color: #0071BC;
+	color: #0071bc;
 	font-weight: bold;
 	list-style-image: url("../Asset 3.svg");
-	margin: 20px 20px 0  20px;
+	margin: 20px 20px 0 20px;
 }
 
 nav a {
