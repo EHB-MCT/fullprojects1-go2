@@ -106,12 +106,12 @@ body {
 	padding: 20px;
 }
 .contact3 {
-	width: 450px;
+
 	align-items: center;
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
-	margin-left: 40px;
+
 }
 
 .box {
@@ -208,6 +208,7 @@ body {
 
 iframe {
 	height: 300px;
+	width: 150%;
 }
 
 .textje {
