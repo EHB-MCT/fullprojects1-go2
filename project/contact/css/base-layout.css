@@ -61,12 +61,14 @@ body {
 }
 
 .contactus {
+	border-radius: 12px;
+	justify-content: center;
 	position: relative;
 	width: 100%;
 	margin-top: 100px;
 	align-self: center;
 	margin: auto;
-	width: 1200px;
+	width: 1000px;
 	flex-direction: column;
 }
 
@@ -93,30 +95,30 @@ body {
 	align-items: flex-end;
 }
 .contact1 {
+	border-radius: 12px;
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
 	background-color: #005f56;
 }
 .contact2 {
-	align-items: center;
-	margin-left: 400px;
+	margin: 10px;
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
-	background-color: #005f56;
 }
 .contact3 {
+	width: 475px;
 	align-items: flex-end;
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
-	background-color: #005f56;
+	margin-left: 35px;
 }
 
 .box {
+	width: 1100px;
 	border-radius: 12px;
-	padding: 20px;
 	background-color: #005f56;
 	display: flex;
 	position: relative;
@@ -152,7 +154,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 10px;
-	width: 50%;
+	width: 100%;
 }
 
 .formBox .row100 .inputBox {
@@ -204,4 +206,22 @@ body {
 
 iframe {
 	height: 300px;
+}
+
+.textje {
+	border-radius: 12px;
+	background-color: #005f56;
+	color: #4d72ce;
+	display: flex;
+	margin: 70px;
+	padding: 20px;
+}
+.textjeh3 {
+	justify-content: center;
+	display: flex;
+	border-radius: 12px;
+	align-items: center;
+	color: #4d72ce;
+	display: flex;
+	padding: 20px;
 }

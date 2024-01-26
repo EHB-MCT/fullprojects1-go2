@@ -31,13 +31,37 @@
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/typo.css" />
 		<link rel="stylesheet" href="css/buttons.css" />
+		<script>
+			function toggleMenu() {
+				var menu = document.querySelector(".menu-items");
+				menu.style.display =
+					menu.style.display === "flex" || menu.style.display === ""
+						? "none"
+						: "flex";
+			}
+		</script>
 	</head>
 
 	<body>
 		<div class="header">
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+				<div class="menu-items">
+					<a href="#" class="nav-link">Wie zijn Wij</a>
+					<a href="#" class="nav-link">Waarom Hiel?</a>
+					<a href="#" class="nav-link">Hiel op Pad</a>
+					<a href="#" class="nav-link">Inschrijvingen</a>
+					<a href="#" class="nav-link">Contact</a>
+				</div>
+			</div>
 			<a href="../home/css/home.html" class="logo_top"
-				><img src="images home/logo_final.svg" alt=""
+				><img src="images home/logo_final.svg"
 			/></a>
+
 			<nav>
 				<a href="#">Wie zijn Wij</a>
 				<a href="#">Waarom Hiel ?</a>
@@ -159,8 +183,9 @@
 						<img src="images home/1x/pic_ras1.png" alt="" />
 						<img src="images home/1x/pic_ras2.png" alt="" />
 					</div>
-
-					<img src="images home/1x/pic_ras3.png" alt="" />
+					<div class="bigLeftPic">
+						<img src="images home/1x/pic_ras3.png" alt="" />
+					</div>
 				</div>
 				<div class="rightPic">
 					<div class="rightPicRow">
@@ -168,13 +193,20 @@
 						<img src="images home/1x/pic_ras5.png" alt="" />
 					</div>
 
-					<img src="images home/1x/pic_ras_6.png" alt="" />
+					<img
+						class="rightLongImage"
+						src="images home/1x/pic_ras_6.png"
+						alt=""
+					/>
 				</div>
+			</div>
+			<div class="bottomPic">
+				<img src="images home/1x/pic_ras_6.png" alt="" />
 			</div>
 		</div>
 
 		<div class="footer">
-			<div>
+			<div class="footer_text">
 				<p>
 					<img src="images home/place.png" class="icons" alt="fotoplaats" />
 					Charles Gilisquetlaan 34 1030, Brussel
@@ -195,17 +227,17 @@
 					class="go_logo"
 					alt="fotovlaamsegemeenschap"
 				/>
-				<img src="images home/logo_final.svg" alt="footer_logo"">
+				<img src="images home/logo_final.svg" class="footer_logo" />
 			</div>
 
-			<div>
+			<div class="footer_text2">
 				<p><img src="images home/insta.png" class="icon" /> atheneumhiel</p>
 				<p>
 					<img
 						src="images home/facebook-logo-png-white-facebook-logo-png-white-facebook-icon-png--32.png"
 						class="iconb"
 					/>
-					Go Atheneum Emanuel Hiel
+					Go Atheneum <br />Emanuel Hiel
 				</p>
 			</div>
 		</div>
