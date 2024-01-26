@@ -135,7 +135,7 @@ body {
 	background-color: #005f56;
 	width: 100%;
 	justify-content: center;
-	margin: 100px 0 100px;
+	margin: 10px 0 100px;
 }
 
 .banner2 {
@@ -219,7 +219,7 @@ body {
 }
 
 .artikel:hover {
-	width: 340px;
+	transform: scale(1.1);
 
 	cursor: pointer;
 }
@@ -231,7 +231,7 @@ body {
 }
 
 .text4 img {
-	width: 600px;
+	width: 60%;
 	margin: 0 50px 0 0;
 }
 
@@ -428,13 +428,12 @@ body {
 	.header nav {
 		display: none;
 	}
+
 	.carousel.slide {
 		margin-bottom: 200px;
 	}
-	.carouselInner,
-	.carousel-item {
-		height: 50vh;
-		z-index: -1;
-		margin-top: 70px;
+
+	.text4 img {
+		width: 60%;
 	}
 }
