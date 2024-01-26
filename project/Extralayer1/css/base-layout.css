@@ -15,6 +15,7 @@ body {
 	width: 1200px;
 	flex: 1;
 	margin: auto;
+	align-items: center;
 }
 
 .wrapper_contact {

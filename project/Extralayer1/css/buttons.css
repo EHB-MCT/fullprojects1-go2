@@ -49,3 +49,38 @@
 .footer_logo {
 	width: 50px;
 }
+
+.remark-beam {
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+  }
+  
+  .remark-beam h3 {
+	margin-bottom: 20px;
+  }
+  
+  .remark-beam textarea {
+	resize: none;
+	width: 60%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 20px;
+  }
+  
+  .remark-beam input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+  }
+  
+  .remark-beam input[type="submit"]:hover {
+	background-color: #45a049;
+  }
