@@ -79,10 +79,9 @@ body {
 .head4 {
 	background-color: #0071bc;
 	width: 600px;
-	margin: 20px;
+	margin: 120px 10px;
 	padding: 15px;
 	border-radius: 20px;
-	margin: 120px 10px;
 }
 
 .wie {
@@ -213,7 +212,7 @@ body {
 }
 
 .artikel h4 {
-	font-family: komet;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	font-size: 20px;
 	margin: 20px 5px 0;
 }
@@ -304,27 +303,10 @@ textarea {
 	flex-direction: column;
 	align-items: end;
 }
-.carousel {
-	display: flex;
-	overflow: auto;
-	scroll-snap-type: x mandatory;
-	scroll-behavior: smooth;
-}
-
+.carousel,
+.carouselInner,
 .carousel-item {
-	flex: 0 0 auto;
-	margin-right: 20px;
-	scroll-snap-align: start;
-	width: 100%;
-}
-@media (min-width: 600px) {
-	.carousel-item {
-		width: 50%;
-	}
-}
-
-@media (min-width: 900px) {
-	.carousel-item {
-		width: 33.33%;
-	}
+	height: 50vh;
+	z-index: -1;
+	margin-top: 70px;
 }
