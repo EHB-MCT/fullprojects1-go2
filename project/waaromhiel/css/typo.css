@@ -6,20 +6,22 @@
 
 h1 {
 	font-family: Dela gothic one;
-	color: #0071BC;
-	font-size: 120px;
+	color: #005f56;
+	font-size: 100px;
+	margin: 90px 0 0;
 }
 
 h2 {
 	font-family: Dela gothic one;
-	color: #005f56;
-	font-size: 75px;
+	color: #0071BC;
+	font-size: 60px;
+	width: 800px;
 }
 
 h3 {
 	font-family: Dela gothic one;
 	color: white;
-	font-size: 50px;
+	font-size: 30px;
 	margin: 0;
 }
 
@@ -39,7 +41,7 @@ h6 {
 p {
 	font-family: komet;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 20px;
 	color: #005f56;
 }
 
@@ -94,10 +96,19 @@ nav a:hover {
 	margin: 0 10px;
 }
 
-.pijler h4 {
-	color: #005f56;
-}
-
 .contactus p {
 	color: white;
+}
+
+.banner p , .banner2 p {
+	font-size: 24px;
+}
+
+.wie h1 {
+	font-size: 70px;
+}
+
+.wie h3 {
+	color: #005f56;
+	width: 570px;
 }
