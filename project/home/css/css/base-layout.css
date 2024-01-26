@@ -135,7 +135,7 @@ body {
 	background-color: #005f56;
 	width: 100%;
 	justify-content: center;
-	margin: 100px 0 100px;
+	margin: 10px 0 100px;
 }
 
 .banner2 {
@@ -219,7 +219,7 @@ body {
 }
 
 .artikel:hover {
-	width: 340px;
+	transform: scale(1.1);
 
 	cursor: pointer;
 }
