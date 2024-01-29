@@ -30,12 +30,12 @@ body {
 	height: 120px;
 	margin: 0;
 	width: 100%;
-	background-color: #005f56;
+	background-color: #91002d;
 	justify-content: center;
 }
 
 .footer {
-	background-color: #005f56;
+	background-color: #91002d;
 	display: flex;
 	justify-content: center;
 	margin: 100px 0 0 0;
@@ -54,7 +54,7 @@ body {
 }
 
 .text1 {
-	background-color: #4d72ce;
+	background-color: #91002d;
 	border-radius: 20px;
 	height: 300px;
 	width: 800px;
@@ -98,7 +98,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
-	background-color: #005f56;
+	background-color: #91002d;
 }
 .contact2 {
 	display: flex;
@@ -106,18 +106,16 @@ body {
 	padding: 20px;
 }
 .contact3 {
-
 	align-items: center;
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
-
 }
 
 .box {
 	width: 1100px;
 	border-radius: 12px;
-	background-color: #005f56;
+	background-color: #91002d;
 	display: flex;
 	position: relative;
 	margin-top: 20px;
@@ -176,14 +174,14 @@ body {
 	padding: 10px;
 	font-size: 1.1em;
 	outline: none;
-	border: 1px solid #005f56;
+	border: 1px solid #cccccc;
 }
 .inputBox textarea {
 	font-family: "komet", sans-serif;
 	padding: 10px;
 	font-size: 1.1em;
 	outline: none;
-	border: 1px solid #005f56;
+	border: 1px solid #cccccc;
 	resize: none;
 	min-height: 220px;
 	margin-bottom: 10px;
@@ -191,8 +189,8 @@ body {
 
 .inputBox input[type="button"] {
 	font-family: "komet", sans-serif;
-	background-color: #e58cc1;
-	color: white;
+	background-color: #cccccc;
+	color: #91002d;
 	border: none;
 	font-size: 1em;
 	max-width: 125px;
@@ -203,7 +201,7 @@ body {
 }
 
 .inputBox::placeholder {
-	color: gray;
+	color: #cccccc;
 }
 
 iframe {
@@ -213,7 +211,7 @@ iframe {
 
 .textje {
 	text-align: center;
-	color: #005f56;
+	color: black;
 	display: flex;
 	align-items: center;
 	flex-direction: column;

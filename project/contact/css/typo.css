@@ -12,13 +12,13 @@ h1 {
 
 h2 {
 	font-family: Dela gothic one;
-	color: #0071bc;
+	color: #91002d;
 	font-size: 60px;
 }
 
 h3 {
 	font-family: Dela gothic one;
-	color: #0071bc;
+	color: #91002d;
 	font-size: 35px;
 	margin: 0;
 }
@@ -49,14 +49,14 @@ p {
 
 a {
 	font-family: "komet", sans-serif;
-	color: #db69a0;
+	color: #cccccc;
 	text-decoration: underline;
 	font-weight: bolder;
 	transition-duration: 0.25s;
 }
 
 a:hover {
-	color: #008a7c;
+	color: black;
 }
 
 a img {
@@ -82,7 +82,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #db69a0;
+	color: #cccccc;
 	text-decoration: underline;
 	font-size: 17px;
 	margin: 0 10px;
