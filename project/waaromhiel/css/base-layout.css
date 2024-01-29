@@ -56,7 +56,7 @@ body {
 	background-color: #005f56;
 	display: flex;
 	justify-content: center;
-	margin: 20px 0 0 0;
+	margin: 200px 0 0 0;
 	padding-top: 40px;
 }
 
@@ -322,4 +322,25 @@ textarea {
 .alle_regels {
 	display: flex;
 	justify-content: space-between;
+}
+
+.wie2 {
+	margin: 100px 0;
+	display: flex;
+	flex-direction: column;
+	height: 600px;
+}
+
+.wie2 h3 {
+	color: #005f56;
+}
+
+.wie2 iframe {
+	margin-top: 30px;
+}
+
+.socials {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
 }
