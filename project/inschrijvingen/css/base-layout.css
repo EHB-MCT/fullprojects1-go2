@@ -47,12 +47,12 @@ body {
 	height: 120px;
 	margin: 0;
 	width: 100%;
-	background-color: #005f56;
+	background-color: #91002d;
 	justify-content: center;
 }
 
 .footer {
-	background-color: #005f56;
+	background-color: #91002d;
 	display: flex;
 	justify-content: center;
 	margin: 20px 0 0 0;
@@ -132,7 +132,7 @@ body {
 
 .banner {
 	display: flex;
-	background-color: #005f56;
+	background-color: #91002d;
 	width: 100%;
 	justify-content: center;
 	margin: 100px 0 100px;
