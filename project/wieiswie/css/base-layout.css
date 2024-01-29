@@ -322,3 +322,40 @@ textarea {
 	display: flex;
 	justify-content: space-between;
 }
+
+table {
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: komet;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+	background-color: #91002d;
+	color: white;
+	text-align: left;
+}
+
+table th, td {
+	padding: 12px 15px;
+}
+
+table tbody tr {
+	border-bottom:1px #757575 solid ;
+}
+
+table tbody tr:last-of-type {
+	border-bottom: none;
+}
+
+table tbody td:nth-of-type(even) {
+	background-color: #cccccc;
+}
+
+tr {
+	width: 200px;
+}
