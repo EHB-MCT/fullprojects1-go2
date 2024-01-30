@@ -5,14 +5,14 @@
 
 h1 {
 	font-family: Dela gothic one;
-	color: #005f56;
+	color: #91002e;
 	font-size: 100px;
 	margin: 100px 0 0;
 }
 
 h2 {
 	font-family: Dela gothic one;
-	color: #0071BC;
+	color: #91002d;
 	font-size: 60px;
 }
 
@@ -35,7 +35,7 @@ p {
 	font-family: komet;
 	font-weight: bold;
 	font-size: 20px;
-	color: #005f56;
+	color: #91002d;
 }
 
 .contactus, .footer P {
@@ -91,6 +91,10 @@ nav a:hover {
 
 .pijler h4 {
 	color: #005f56;
+}
+
+.artikel p {
+	color: #91002d;
 }
 
 @media only screen and (max-width: 768px) {

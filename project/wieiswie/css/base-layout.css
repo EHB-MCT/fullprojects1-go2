@@ -48,12 +48,12 @@ body {
 	height: 120px;
 	margin: 0;
 	width: 100%;
-	background-color: #005f56;
+	background-color: #91002d;
 	justify-content: center;
 }
 
 .footer {
-	background-color: #005f56;
+	background-color: #91002d;
 	display: flex;
 	justify-content: center;
 	margin: 20px 0 0 0;
@@ -119,7 +119,7 @@ body {
 }
 
 .keuzevakkentabel h3, .jaar_1_tabel h3{
-	color: #005f56;
+	color: #91002d;
 	margin: 40px 0;
 }
 
@@ -129,7 +129,7 @@ body {
 
 .banner {
 	display: flex;
-	background-color: #005f56;
+	background-color: #91002d;
 	width: 100%;
 	justify-content: center;
 	margin: 100px 0 0;
@@ -145,7 +145,7 @@ body {
 
 .banner2 {
 	display: flex;
-	background-color: #005f56;
+	background-color: #91002d;
 	width: 100%;
 	justify-content: center;
 	margin: 260px 0 0;
@@ -165,11 +165,11 @@ body {
 }
 
 .text2 {
-	background-color: #005f56;
+	background-color: #91002d;
 }
 
 .text3 {
-	background-color: #005f56;
+	background-color: #91002d;
 	padding: 30px;
 	border-radius: 20px;
 	width: 800px;
@@ -321,4 +321,41 @@ textarea {
 .alle_regels {
 	display: flex;
 	justify-content: space-between;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: komet;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table thead tr {
+	background-color: #91002d;
+	color: white;
+	text-align: left;
+}
+
+table th, td {
+	padding: 12px 15px;
+}
+
+table tbody tr {
+	border-bottom:1px #757575 solid ;
+}
+
+table tbody tr:last-of-type {
+	border-bottom: none;
+}
+
+table tbody td:nth-of-type(even) {
+	background-color: #cccccc;
+}
+
+tr {
+	width: 200px;
 }
