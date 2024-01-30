@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+	body {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
+    .nav{
+        padding: 12px;
+        align-items: right;
+        height: 80px;
+        margin: 0;
+        width: 1000px;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+
+	.header,
+	.footer {
+		flex-direction: row;
+		align-items: right;
+		padding-right: 452px;
+		width: 100%;
+	}
+
+	.contactus {
+		width: 100%;
+		max-width: 1100px; /* Voeg een maximum breedte toe om te voorkomen dat de inhoud te breed wordt */
+		margin: auto;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	.footer {
+		flex-direction: row;
+		align-items: center;
+		padding-right: 452px;
+	}
+
+	.middle_logo {
+		margin: 20px 0;
+	}
+}
