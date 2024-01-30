@@ -5,27 +5,65 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Inschrijvingen</title>
 		<link
-			rel="icon"
-			type="image/x-icon"
-			href="/project/contact/images/logo.svg"
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
 		/>
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/base-layout.css" />
 		<link rel="stylesheet" href="css/nav.css" />
 		<link rel="stylesheet" href="css/typo.css" />
 		<link rel="stylesheet" href="css/buttons.css" />
+		<script>
+			function toggleMenu() {
+				var menu = document.querySelector(".menu-items");
+				menu.style.display =
+					menu.style.display === "flex" || menu.style.display === ""
+						? "none"
+						: "flex";
+			}
+		</script>
 	</head>
 	<body>
 		<div class="header">
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+				<div class="menu-items">
+					<a href="../../../project/wieiswie/wie_is_wie.html">Wie zijn Wij</a>
+					<a href="../../../project/waaromhiel/waaromhiel.html" class="nav-link">Waarom Hiel?</a>
+					<a href="../../../project/inschrijvingen/inschrijvingen.html" class="nav-link">Inschrijvingen</a>
+					<a href="../../../project/contact/contact.html" class="nav-link">Contact</a>
+				</div>
+			</div>
 
 			<a href="../../project/home/css/home.html" class="logo_top"
-				><img src="images/logo.svg"
+				><img src="images/Middel 2.svg"
 			/></a>
 
 			<nav>
 				<a href="../../../project/wieiswie/wie_is_wie.html">Wie zijn Wij</a>
 				<a href="../../../project/waaromhiel/waaromhiel.html">Waarom Hiel ?</a>
-				<a href="../../../project/socials/">Hiel op Pad</a>
 				<a href="../../../project/inschrijvingen/inschrijvingen.html">Inschrijvingen</a>
 				<a href="../../../project/contact/contact.html">Contact</a>
 			</nav>

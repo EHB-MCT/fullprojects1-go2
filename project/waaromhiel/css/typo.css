@@ -1,6 +1,5 @@
 /* TYPOGRAPHY */
 
-
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 @import url("https://use.typekit.net/wsd7bqd.css");
 
@@ -45,7 +44,8 @@ p {
 	color: #91002d;
 }
 
-.contactus, .footer P {
+.contactus,
+.footer P {
 	color: white;
 }
 
@@ -73,10 +73,10 @@ a img {
 
 li {
 	font-family: "komet", sans-serif;
-	color: #0071BC;
+	color: #0071bc;
 	font-weight: bold;
 	list-style-image: url("../Asset 3.svg");
-	margin: 20px 20px 0  20px;
+	margin: 20px 20px 0 20px;
 }
 
 nav a {
@@ -100,7 +100,8 @@ nav a:hover {
 	color: white;
 }
 
-.banner p , .banner2 p {
+.banner p,
+.banner2 p {
 	font-size: 24px;
 }
 
@@ -111,4 +112,33 @@ nav a:hover {
 .wie h3 {
 	color: #91002d;
 	width: 570px;
+}
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-family: Dela gothic one;
+		color: #91002d;
+		font-size: 60px;
+		margin: 90px 20px 0;
+	}
+	h2 {
+		font-family: Dela gothic one;
+		color: #727272;
+		font-size: 40px;
+		width: 600px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	h3 {
+		font-family: Dela gothic one;
+		color: white;
+		font-size: 30px;
+		margin-left: 22px;
+	}
+	p {
+		font-family: komet;
+		font-weight: bold;
+		font-size: 20px;
+		color: #91002d;
+		margin-left: 20px;
+	}
 }
