@@ -211,8 +211,8 @@ iframe {
 	color: black;
 	display: flex;
 	text-align: center;
-	padding-left: 700px;
-	padding-right: 700px;
+	padding-left: 350px;
+	padding-right: 350px;
 	width: 1000px;
 }
 
@@ -222,6 +222,6 @@ iframe {
 	text-align: center;
 	padding-top: 40px;
 	width: 1000px;
-	padding-left: 700px;
-	padding-right: 700px;
+	padding-left: 350px;
+	padding-right: 3405px;
 }
