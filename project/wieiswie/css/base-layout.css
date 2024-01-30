@@ -196,27 +196,47 @@ body {
 .artikels {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
-.artikel{
+.artikel {
 	width: 300px;
-	background-color: #4D72CE;
+	background-color: #91002d;
 	padding: 0 0 50px;
-	margin: 110px 10px;
+	margin: 110px 20px;
 
 	border-radius: 20px;
-	
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	transition-duration: 0.5s;
 }
 
 .artikel img {
-	width: 300px;
+	width: 100%;
 	border-radius: 20px;
 }
 
 .artikel h4 {
+	font-family: komet;
+	font-weight: bold;
 	font-size: 20px;
-	margin: 0 5px;
+	margin: 20px 5px 0;
 }
+
+.artikel p {
+	color: white;
+	margin: 5px 15px;
+}
+
+.artikel:hover {
+	transform: scale(1.1);
+
+	cursor: pointer;
+}
+
 
 .text4 {
 	display: flex;
