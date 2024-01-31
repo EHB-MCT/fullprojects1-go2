@@ -136,6 +136,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 200px;
 }
 /* form */
 .formBox {
@@ -208,21 +209,59 @@ iframe {
 }
 
 .textje {
-	text-align: center;
-	color: black;
 	display: flex;
+	text-align: center;
 	align-items: center;
 	flex-direction: column;
-	padding-left: 30px;
-	padding-right: 30px;
-	margin-left: 420px;
+	color: black;
+	position: relative;
+	margin-top: 20px;
 	width: 740px;
 }
 
 .textjeh3 {
 	justify-content: center;
 	display: flex;
+	flex-direction: column;
 	border-radius: 12px;
 	align-items: center;
 	padding-top: 40px;
+}
+.hamburger-menu {
+	display: none;
+	align-items: end;
+	margin-left: 650px;
+}
+
+.hamburger-icon {
+	cursor: pointer;
+	padding: 10px;
+}
+
+.bar {
+	width: 25px;
+	height: 3px;
+	background-color: #fff;
+	margin: 6px 0;
+	transition: 1s;
+}
+
+.menu-items {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 55px;
+	right: 0;
+	background-color: #91002d;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}
+
+.menu-items a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 10px;
 }

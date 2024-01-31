@@ -1,40 +1,109 @@
 @media screen and (max-width: 768px) {
 	body {
+		overflow-x: hidden;
+	}
+	.header img {
+		width: 100px;
+		margin-left: -11px;
+	}
+	.logo_top img:hover {
+		margin-bottom: 6px;
+		width: 110px;
+	}
+
+	.hamburger-menu {
+		display: flex;
+		margin-bottom: 10px;
+	}
+
+	.header nav {
+		display: none;
+	}
+	.title {
+		margin-top: 50px;
+		margin-left: 30px;
+	}
+	.contactus {
+		margin-left: 20px;
+	}
+	h2 {
+		font-family: Dela gothic one;
+		color: #91002d;
+		font-size: 40px;
+	}
+	h3 {
+		font-family: Dela gothic one;
+		color: #91002d;
+		font-size: 35px;
+	}
+	.titel {
+		font-weight: 500;
+		font-size: 1.4rem;
+		margin-top: 50px;
+		display: flex;
+		justify-content: start;
+		align-items: start;
+		margin-top: 200px;
+		margin-top: 80px;
+	}
+	.contactus .title {
+		display: flex;
+		justify-content: start;
+		align-items: start;
+		font-size: 2em;
+		width: 300px;
+		margin-left: 5px;
+	}
+	.box {
 		display: flex;
 		flex-direction: column;
-		min-height: 100vh;
+		width: 700px;
 	}
-	.nav {
-		padding: 12px;
-		align-items: right;
-		height: 80px;
-		margin: 0;
-		width: 1000px;
+
+	.contact1 {
+		border-radius: 12px;
 		display: flex;
-		justify-content: flex-end;
+		flex-direction: column;
+		padding: 20px;
+		width: 700px;
+		background-color: #91002d;
 	}
-
-	.header,
-	.footer {
-		flex-direction: row;
-		align-items: right;
-		padding-right: 452px;
-		max-width: 810px;
+	.contact2 {
+		margin-left: -20px;
 	}
-
-	.contactus {
-		width: 100%;
-		max-width: 650px;
-		margin: auto;
+	.contact3 {
+		width: 600px;
+		margin-left: -100px;
 	}
-
-	img {
-		max-width: 100%;
-		height: auto;
+	.contact.map {
+		width: 400px;
 	}
-	.footer {
-		flex-direction: row;
-		align-items: center;
-		padding-right: 452px;
+	.textjeh3 {
+		justify-content: start;
+		display: flex;
+		align-items: start;
+		margin-top: 40px;
+		margin-left: 20px;
+		width: 700px;
+	}
+	.textje {
+		text-align: start;
+		color: black;
+		display: flex;
+		align-items: start;
+		flex-direction: column;
+		margin-left: 0;
+		width: 700px;
+		margin-top: 30px;
+	}
+	.footer_text {
+		margin-left: 20px;
+	}
+	.footer .middle_logo {
+		margin-left: 20px;
+	}
+	.footer_text2 {
+		margin-left: -90px;
+		width: 150px;
 	}
 }
