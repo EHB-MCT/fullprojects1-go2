@@ -160,7 +160,7 @@ body {
 }
 
 .text_banner p {
-	width: 500px;
+	width: 900px;
 	color: white;
 }
 
@@ -322,7 +322,7 @@ textarea {
 	margin: 100px 0;
 	display: flex;
 	flex-direction: column;
-	height: 600px;
+
 }
 
 .wie2 h3 {
