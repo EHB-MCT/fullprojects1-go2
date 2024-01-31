@@ -7,7 +7,7 @@ h1 {
 	font-family: Dela gothic one;
 	color: #91002d;
 	font-size: 100px;
-	margin: 90px 0 0;
+	margin: 80px 0 0;
 }
 
 h2 {
@@ -105,14 +105,20 @@ nav a:hover {
 	font-size: 24px;
 }
 
-.wie h1 {
+.boxDiag h1 {
 	font-size: 70px;
 }
 
-.wie h3 {
+.boxDiag h3 {
 	color: #91002d;
 	width: 570px;
 }
+
+#selected {
+	font-size: 17px;
+	text-decoration: underline;
+}
+
 @media only screen and (max-width: 768px) {
 	h1 {
 		font-family: Dela gothic one;

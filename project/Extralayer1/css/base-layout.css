@@ -49,12 +49,12 @@ body {
 	height: 120px;
 	margin: 0;
 	width: 100%;
-	background-color: #005f56;
+	background-color: #91002d;
 	justify-content: center;
 }
 
 .footer {
-	background-color: #005f56;
+	background-color: #91002d;
 	display: flex;
 	justify-content: center;
 	margin: 20px 0 0 0;
@@ -121,7 +121,7 @@ body {
 }
 
 .keuzevakkentabel h3, .jaar_1_tabel h3{
-	color: #005f56;
+	color: #91002d;
 	margin: 40px 0;
 }
 
@@ -131,7 +131,7 @@ body {
 
 .banner {
 	display: flex;
-	background-color: #005f56;
+	background-color: #91002d;
 	width: 100%;
 	justify-content: center;
 	margin: 100px 0 0;
@@ -147,7 +147,7 @@ body {
 
 .banner2 {
 	display: flex;
-	background-color: #005f56;
+	background-color: #91002d;
 	width: 100%;
 	justify-content: center;
 	margin: 260px 0 0;
@@ -167,11 +167,11 @@ body {
 }
 
 .text2 {
-	background-color: #005f56;
+	background-color: #91002d;
 }
 
 .text3 {
-	background-color: #005f56;
+	background-color: #91002d;
 	padding: 30px;
 	border-radius: 20px;
 	width: 800px;
@@ -202,7 +202,7 @@ body {
 
 .artikel{
 	width: 300px;
-	background-color: #4D72CE;
+	background-color: #91002d;
 	padding: 0 0 50px;
 	margin: 110px 10px;
 
@@ -263,7 +263,7 @@ body {
 } 
 
 .contactus {
-	background-color: #005f56;
+	background-color: #91002d;
 	padding: 35px;
 	border-radius: 20px;
 

@@ -6,14 +6,14 @@
 
 h1 {
 	font-family: Dela gothic one;
-	color: #005f56;
+	color: #91002d;
 	font-size: 100px;
 	margin: 100px 0 0;
 }
 
 h2 {
 	font-family: Dela gothic one;
-	color: #0071BC;
+	color: #727272;
 	font-size: 60px;
 }
 
@@ -41,7 +41,7 @@ p {
 	font-family: komet;
 	font-weight: bold;
 	font-size: 20px;
-	color: #005f56;
+	color: #91002d;
 }
 
 .contactus, .footer P {
@@ -56,7 +56,7 @@ p {
 
 a {
 	font-family: "komet", sans-serif;
-	color: #db69a0;
+	color: #91002d;
 	text-decoration: underline;
 	font-weight: bolder;
 	transition-duration: 0.25s;
@@ -89,14 +89,14 @@ nav a {
 }
 
 nav a:hover {
-	color: #db69a0;
+	color: white;
 	text-decoration: underline;
 	font-size: 17px;
 	margin: 0 10px;
 }
 
 .pijler h4 {
-	color: #005f56;
+	color: #91002d;
 }
 
 .contactus p {
@@ -112,7 +112,7 @@ nav a:hover {
 }
 
 .remark-beam h3{
-	color: #0071BC;
+	color: #91002d;
 }
 
 .wrapper h2 {

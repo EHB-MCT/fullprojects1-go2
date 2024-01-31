@@ -92,8 +92,10 @@ nav a:hover {
 	color: #005f56;
 }
 
-.artikel p {
-	color: #91002d;
+
+.artikel h4,a {
+	text-decoration: none;
+	color: white;
 }
 
 @media only screen and (max-width: 768px) {

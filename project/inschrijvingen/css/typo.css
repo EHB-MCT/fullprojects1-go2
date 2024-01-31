@@ -8,12 +8,14 @@ h1 {
 	color: #91002d;
 	font-size: 100px;
 	margin: 100px 0 0;
+	padding: 80px 0;
 }
 
 h2 {
 	font-family: Dela gothic one;
 	color: #727272;
 	font-size: 60px;
+	margin: 60px 0 ;
 }
 
 h3 {
@@ -34,7 +36,7 @@ p {
 	font-family: komet;
 	font-weight: bold;
 	font-size: 20px;
-	color: black;
+	color: #91002d;
 }
 
 .contactus,
@@ -101,6 +103,12 @@ nav a:hover {
 .contactus p {
 	color: white;
 }
+
+#selected {
+	font-size: 17px;
+	text-decoration: underline;
+}
+
 @media only screen and (max-width: 768px) {
 	h1 {
 		font-family: Dela gothic one;
