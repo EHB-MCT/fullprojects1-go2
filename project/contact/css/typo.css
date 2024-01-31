@@ -95,3 +95,8 @@ nav a:hover {
 .contactus p {
 	color: white;
 }
+
+#selected {
+	font-size: 17px;
+	text-decoration: underline;
+}
