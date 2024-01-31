@@ -1,5 +1,4 @@
 @media screen and (max-width: 768px) {
-<<<<<<< HEAD
 	body {
 		overflow-x: hidden;
 	}
@@ -106,14 +105,5 @@
 	.footer_text2 {
 		margin-left: -90px;
 		width: 150px;
-=======
-	.logo_top {
-		margin: 0px 0 10px 10px;
-		width: 800px;
-		transition-duration: 0.35s;
-		position: absolute;
-		top: 5px;
-		
->>>>>>> dd0e82fe5c221caa7367738fb3a03bd88a698beb
 	}
 }

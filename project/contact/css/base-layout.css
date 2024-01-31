@@ -38,7 +38,7 @@ body {
 	background-color: #91002d;
 	display: flex;
 	justify-content: space-around;
-	margin: 215px 0 0 0;
+	margin: 123px 0 0 0;
 	padding-top: 30px;
 }
 
@@ -209,7 +209,6 @@ iframe {
 }
 
 .textje {
-<<<<<<< HEAD
 	display: flex;
 	text-align: center;
 	align-items: center;
@@ -218,30 +217,15 @@ iframe {
 	position: relative;
 	margin-top: 20px;
 	width: 740px;
-=======
-	color: black;
-	display: flex;
-	text-align: center;
-	padding-left: 350px;
-	padding-right: 350px;
-	width: 1000px;
->>>>>>> dd0e82fe5c221caa7367738fb3a03bd88a698beb
 }
 
 .textjeh3 {
 	justify-content: center;
 	display: flex;
-<<<<<<< HEAD
 	flex-direction: column;
 	border-radius: 12px;
 	align-items: center;
-=======
-	text-align: center;
->>>>>>> dd0e82fe5c221caa7367738fb3a03bd88a698beb
 	padding-top: 40px;
-	width: 1000px;
-	padding-left: 350px;
-	padding-right: 3405px;
 }
 .hamburger-menu {
 	display: none;
