@@ -114,3 +114,11 @@ nav a:hover {
 .remark-beam h3{
 	color: #0071BC;
 }
+
+.wrapper h2 {
+	margin: 100px;
+	border-style: dashed;
+	border-radius: 20px;
+	border-width: 10px;
+	padding: 50px 60px;
+}
