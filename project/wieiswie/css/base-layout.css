@@ -379,3 +379,7 @@ table tbody td:nth-of-type(even) {
 tr {
 	width: 200px;
 }
+
+.Leefregel img {
+	width: 80px;
+}
