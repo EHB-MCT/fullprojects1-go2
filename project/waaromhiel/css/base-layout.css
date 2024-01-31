@@ -86,14 +86,14 @@ body {
 	margin: 120px 10px;
 }
 
-.wie {
+.boxDiag {
 	margin: 100px 0;
 	display: flex;
 	height: 300px;
 	flex-direction: column;
 }
 
-.wie ul {
+.boxDiag ul {
 	margin: 100px;
 }
 
@@ -318,18 +318,18 @@ textarea {
 	justify-content: space-between;
 }
 
-.wie2 {
+.boxStr{
 	margin: 100px 0;
 	display: flex;
 	flex-direction: column;
 
 }
 
-.wie2 h3 {
+.boxStr h3 {
 	color: #91002d;
 }
 
-.wie2 iframe {
+.boxStr iframe {
 	margin-top: 30px;
 }
 
