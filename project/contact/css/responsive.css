@@ -1,10 +1,109 @@
 @media screen and (max-width: 768px) {
-	.logo_top {
-		margin: 0px 0 10px 10px;
-		width: 800px;
-		transition-duration: 0.35s;
-		position: absolute;
-		top: 5px;
-		
+	body {
+		overflow-x: hidden;
+	}
+	.header img {
+		width: 100px;
+		margin-left: -11px;
+	}
+	.logo_top img:hover {
+		margin-bottom: 6px;
+		width: 110px;
+	}
+
+	.hamburger-menu {
+		display: flex;
+		margin-bottom: 10px;
+	}
+
+	.header nav {
+		display: none;
+	}
+	.title {
+		margin-top: 50px;
+		margin-left: 30px;
+	}
+	.contactus {
+		margin-left: 20px;
+	}
+	h2 {
+		font-family: Dela gothic one;
+		color: #91002d;
+		font-size: 40px;
+	}
+	h3 {
+		font-family: Dela gothic one;
+		color: #91002d;
+		font-size: 35px;
+	}
+	.titel {
+		font-weight: 500;
+		font-size: 1.4rem;
+		margin-top: 50px;
+		display: flex;
+		justify-content: start;
+		align-items: start;
+		margin-top: 200px;
+		margin-top: 80px;
+	}
+	.contactus .title {
+		display: flex;
+		justify-content: start;
+		align-items: start;
+		font-size: 2em;
+		width: 300px;
+		margin-left: 5px;
+	}
+	.box {
+		display: flex;
+		flex-direction: column;
+		width: 700px;
+	}
+
+	.contact1 {
+		border-radius: 12px;
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
+		width: 700px;
+		background-color: #91002d;
+	}
+	.contact2 {
+		margin-left: -20px;
+	}
+	.contact3 {
+		width: 600px;
+		margin-left: -100px;
+	}
+	.contact.map {
+		width: 400px;
+	}
+	.textjeh3 {
+		justify-content: start;
+		display: flex;
+		align-items: start;
+		margin-top: 40px;
+		margin-left: 20px;
+		width: 700px;
+	}
+	.textje {
+		text-align: start;
+		color: black;
+		display: flex;
+		align-items: start;
+		flex-direction: column;
+		margin-left: 0;
+		width: 700px;
+		margin-top: 30px;
+	}
+	.footer_text {
+		margin-left: 20px;
+	}
+	.footer .middle_logo {
+		margin-left: 20px;
+	}
+	.footer_text2 {
+		margin-left: -90px;
+		width: 150px;
 	}
 }
