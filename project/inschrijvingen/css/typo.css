@@ -103,6 +103,12 @@ nav a:hover {
 .contactus p {
 	color: white;
 }
+
+#selected {
+	font-size: 17px;
+	text-decoration: underline;
+}
+
 @media only screen and (max-width: 768px) {
 	h1 {
 		font-family: Dela gothic one;
