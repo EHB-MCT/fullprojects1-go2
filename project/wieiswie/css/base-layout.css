@@ -24,7 +24,6 @@ body {
 	width: 1200px;
 	margin: auto;
 	align-items: end;
-
 }
 
 .logo_top img {
@@ -88,6 +87,7 @@ body {
 .wie {
 	margin: 100px 0;
 	display: flex;
+	align-items: start;
 	height: 300px;
 	flex-direction: column;
 }
@@ -96,20 +96,18 @@ body {
 	margin: 100px;
 }
 
-
-.text1,.text2{
+.text1,
+.text2 {
 	padding: 25px;
 	width: 700px;
 	border-radius: 20px;
 	align-self: end;
 }
 
-
 .keuzevakken {
 	margin: 6px;
 	display: flex;
 }
-
 
 .keuzevakkentabel {
 	margin: 40px 0;
@@ -118,7 +116,8 @@ body {
 	align-items: start;
 }
 
-.keuzevakkentabel h3, .jaar_1_tabel h3{
+.keuzevakkentabel h3,
+.jaar_1_tabel h3 {
 	color: #91002d;
 	margin: 40px 0;
 }
@@ -174,10 +173,9 @@ body {
 	border-radius: 20px;
 	width: 800px;
 	margin-top: 170px;
-
 }
 
-.pijler h4{
+.pijler h4 {
 	width: 400px;
 }
 
@@ -190,7 +188,7 @@ body {
 	margin: 100px 0;
 	justify-content: space-between;
 	align-items: end;
-	display: flex ;
+	display: flex;
 }
 
 .artikels {
@@ -237,14 +235,13 @@ body {
 	cursor: pointer;
 }
 
-
 .text4 {
 	display: flex;
 	justify-content: center;
 	margin: 40px 0;
 }
 
-.text4 img{
+.text4 img {
 	width: 600px;
 	margin: 0 50px 0 0;
 }
@@ -255,10 +252,9 @@ body {
 
 .text4_1 {
 	width: 350px;
-
 }
 
-.outerPic img{
+.outerPic img {
 	margin: 25px;
 }
 
@@ -278,20 +274,20 @@ body {
 
 .rightPicRow {
 	display: flex;
-} 
+}
 
 .contactus {
 	background-color: #005f56;
 	padding: 35px;
 	border-radius: 20px;
-
 }
 
 .contactus .box {
 	display: flex;
 }
 
-input, textarea{
+input,
+textarea {
 	padding: 5px;
 	border-radius: 10px;
 	margin: 10px 25px;
@@ -308,7 +304,7 @@ textarea {
 
 .infoBox {
 	margin: 0 0 0 25px;
-} 
+}
 
 .outerHoe {
 	display: flex;
@@ -320,19 +316,17 @@ textarea {
 	align-items: end;
 }
 
-.regels_wrapper1, .regels_wrapper2 {
+.regels_wrapper1,
+.regels_wrapper2 {
 	display: flex;
 	flex-direction: column;
 	width: 40%;
-
 }
 
 .regels_wrapper2 {
 	margin-top: 90px;
 	align-items: end;
 }
-
-
 
 .Leefregel {
 	margin: 40px 10px;
@@ -360,12 +354,13 @@ table thead tr {
 	text-align: left;
 }
 
-table th, td {
+table th,
+td {
 	padding: 12px 15px;
 }
 
 table tbody tr {
-	border-bottom:1px #757575 solid ;
+	border-bottom: 1px #757575 solid;
 }
 
 table tbody tr:last-of-type {
@@ -379,7 +374,91 @@ table tbody td:nth-of-type(even) {
 tr {
 	width: 200px;
 }
+.hamburger-menu {
+	display: none;
+	align-items: end;
+	margin-left: 650px;
+}
 
-.Leefregel img {
-	width: 80px;
+.hamburger-icon {
+	cursor: pointer;
+	padding: 10px;
+}
+
+.bar {
+	width: 25px;
+	height: 3px;
+	background-color: #fff;
+	margin: 6px 0;
+	transition: 1s;
+}
+
+.menu-items {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 55px;
+	right: 0;
+	background-color: #91002d;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+}
+
+.menu-items a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+	.header img {
+		width: 100px;
+		margin-left: -10px;
+	}
+	.logo_top img:hover {
+		margin-bottom: 6px;
+		width: 110px;
+	}
+	.hamburger-menu {
+		display: flex;
+		margin-bottom: 10px;
+	}
+
+	.header nav {
+		display: none;
+	}
+	.footer_text {
+		margin-left: 20px;
+	}
+	.footer .middle_logo {
+		margin-left: 20px;
+	}
+	.footer_text2 {
+		margin-left: -90px;
+		width: 150px;
+	}
+	.wie {
+		display: flex;
+		flex-direction: column;
+		height: 300px;
+		margin-left: 20px;
+	}
+	.text1,
+	.text2 {
+		width: 700px;
+		border-radius: 20px;
+		align-self: start;
+		margin-left: -20px;
+	}
+	.wie ul {
+		display: flex;
+		align-self: start;
+		flex-direction: column;
+		margin: 0 -20px 0 0;
+	}
+	.text_banner {
+		margin-left: 20px;
+	}
 }
