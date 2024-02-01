@@ -43,6 +43,10 @@ p {
 	color: white;
 }
 
+.footer_text2 a {
+	color: white;
+}
+
 ::placeholder {
 	font-family: komet;
 	font-weight: bold;
