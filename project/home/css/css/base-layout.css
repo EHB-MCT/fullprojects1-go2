@@ -319,6 +319,12 @@ body {
 	margin-top: 70px;
 }
 
+.videoBox {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
 @media only screen and (max-width: 768px) {
 	body {
 		overflow-x: hidden;
