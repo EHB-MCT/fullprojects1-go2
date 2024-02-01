@@ -61,6 +61,10 @@ a {
 	transition-duration: 0.25s;
 }
 
+.banner h3, .banner2 h3 {
+	color: white;
+}
+
 a:hover {
 	color: #727272;
 }
