@@ -52,6 +52,11 @@ body {
 	justify-content: center;
 }
 
+.footer_text2 {
+	display: flex;
+	flex-direction: column;
+}
+
 .footer {
 	background-color: #91002d;
 	display: flex;

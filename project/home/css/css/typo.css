@@ -38,7 +38,8 @@ p {
 }
 
 .contactus,
-.footer P {
+.footer a,
+p {
 	color: white;
 }
 
