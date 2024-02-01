@@ -24,6 +24,16 @@
 		<link rel="stylesheet" href="../css/nav.css" />
 		<link rel="stylesheet" href="../css/typo.css" />
 		<link rel="stylesheet" href="../css/buttons.css" />
+
+		<script>
+			function toggleMenu() {
+				var menu = document.querySelector(".menu-items");
+				menu.style.display =
+					menu.style.display === "flex" || menu.style.display === ""
+						? "none"
+						: "flex";
+			}
+		</script>
 	</head>
 	<body>
 		<div class="header">
@@ -31,10 +41,32 @@
 				><img src="../images/logo.svg"
 			/></a>
 
+			<div class="hamburger-menu">
+				<div class="hamburger-icon" onclick="toggleMenu()">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+				<div class="menu-items">
+					<a href="../../../project/wieiswie/wie_is_wie.html" >Wie zijn wij</a>
+					<a href="../../../project/waaromhiel/waaromhiel.html" class="nav-link"
+						>Waarom Hiel?</a
+					>
+	
+					<a
+						href="../../../project/inschrijvingen/inschrijvingen.html"
+						class="nav-link"
+						>Inschrijvingen</a
+					>
+					<a href="../../../project/contact/contact.html" class="nav-link"
+						>Contact</a
+					>
+				</div>
+			</div>
+
 			<nav>
 				<a href="../../../project/wieiswie/wie_is_wie.html">Wie zijn wij</a>
 				<a href="../../../project/waaromhiel/waaromhiel.html">Waarom Hiel ?</a>
-				<a href="../../../project/socials/">Hiel op Pad</a>
 				<a href="../../../project/inschrijvingen/inschrijvingen.html"
 					>Inschrijvingen</a
 				>
