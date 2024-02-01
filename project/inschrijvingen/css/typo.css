@@ -40,14 +40,10 @@ p {
 }
 
 .contactus,
-.footer P {
+.footer P, .footer a {
 	color: white;
 }
 
-.contactus,
-.footer P {
-	color: white;
-}
 
 ::placeholder {
 	font-family: komet;
