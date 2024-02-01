@@ -30,7 +30,6 @@ h4 {
 	margin: 0;
 }
 
-
 p {
 	font-family: komet;
 	font-weight: bold;
@@ -38,7 +37,8 @@ p {
 	color: #91002d;
 }
 
-.contactus, .footer P {
+.contactus,
+.footer P {
 	color: white;
 }
 
@@ -57,7 +57,7 @@ a {
 }
 
 a:hover {
-	color: white;
+	color: grey;
 }
 
 a img {
@@ -92,8 +92,8 @@ nav a:hover {
 	color: #005f56;
 }
 
-
-.artikel h4,a {
+.artikel h4,
+a {
 	text-decoration: none;
 	color: white;
 }
